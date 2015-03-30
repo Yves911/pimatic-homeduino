@@ -209,6 +209,24 @@ is used for sending or receiving. Default is `true` for both.
 }
 ```
 
+### Door bell example
+```json
+{
+  "id": "maindoorbell",
+  "name": "Main door bell",
+  "class": "HomeduinoRFSwitch",
+  "protocols": [
+    {
+      "name": "doorbell1",
+      "options": {
+        "id": 1361,
+        "unit": 0
+      }
+    }
+  ]
+}
+```
+
 ### Contact sensor example:
 
 ```json
